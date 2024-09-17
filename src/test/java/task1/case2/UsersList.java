@@ -1,13 +1,11 @@
 package task1.case2;
 
 import io.qameta.allure.restassured.AllureRestAssured;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import java.util.List;
-
 import static io.restassured.RestAssured.given;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @DisplayName("Получить список пользователей")
 public class UsersList {
@@ -23,6 +21,6 @@ public class UsersList {
                 .extract().body().jsonPath()
                 .getList("data", UserData.class);
 
-        assertTrue(users.stream().allMatch(x->x.getEmail().endsWith("@reqres.in")));
+        Assertions.assertTrue(users.stream().allMatch(x->x.getEmail().endsWith("@reqres.in")));
     }
 }

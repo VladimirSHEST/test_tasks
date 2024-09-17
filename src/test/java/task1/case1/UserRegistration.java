@@ -4,6 +4,7 @@ import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
 import static io.restassured.RestAssured.given;
 
 @DisplayName(" Кейс 1 регистрация пользователя")
@@ -27,9 +28,10 @@ public class UserRegistration {
 
         System.out.println("Response: " + response.asString());
     }
-    @DisplayName("неуспешная регистрация")
+
+    @DisplayName("Неуспешная регистрация")
     @Test
-    public void unSuccessUserReg(){
+    public void unSuccessUserReg() {
         String requestBody = "{\"email\": \"sydney@fife\"}";
 
         Response response = given()

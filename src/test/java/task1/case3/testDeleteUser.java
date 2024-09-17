@@ -1,11 +1,15 @@
 package task1.case3;
+
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.response.Response;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
 import static io.restassured.RestAssured.given;
 
-
+@DisplayName("Удаляем второго пользователя, статус-код 204")
 public class testDeleteUser {
+
     @Test
     public void testDeleteUser() {
         Response response = given()

@@ -6,7 +6,6 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
-import static io.restassured.path.json.JsonPath.given;
 import static org.hamcrest.Matchers.equalTo;
 
 public class RegistrationSpecs {
