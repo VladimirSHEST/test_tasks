@@ -3,7 +3,7 @@ package task2.pages;
 import org.junit.jupiter.api.*;
 import static com.codeborne.selenide.Selenide.*;
 
-@DisplayName("старт тестов")
+@DisplayName("Задание 2")
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class DemoBlazeTest {
 
