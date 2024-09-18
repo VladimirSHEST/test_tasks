@@ -7,11 +7,8 @@ import static com.codeborne.selenide.Selenide.$x;
 public class LoginPage {
 
     private final SelenideElement logInLink = $x("//*[@id='login2']");
-
     private final SelenideElement userNamelogIn = $x("//*[@id='loginusername']");
-
     private final SelenideElement passwordlogIn = $x("//*[@id='loginpassword']");
-
     private final SelenideElement buttonLogIn = $x("//*[@id='logInModal']/div/div/div[3]/button[2]");
 
     public void logIn() {

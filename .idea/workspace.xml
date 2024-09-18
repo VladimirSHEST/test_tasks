@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c2e07b6-e4fa-4bcf-b47b-640d66ac168e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/task1/case4/UserSpecs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/task2/pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/task2/pages/DemoBlazeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/task2/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/task2/pages/SignUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/task2/utils/DataGenerator.java" afterDir="false" />
+    <list default="true" id="2c2e07b6-e4fa-4bcf-b47b-640d66ac168e" name="Changes" comment="закончил на втором задании, 3-ий пункт">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/task2/pages/OrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/task2/pages/PrisePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/task1/case1/RegistrationSpecs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task1/case1/RegistrationSpecs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/task1/case1/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task1/case1/UserRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/task1/case2/UsersList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task1/case2/UsersList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/task1/case3/testDeleteUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task1/case3/testDeleteUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/task1/case4/UserPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task1/case4/UserUpdateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/task2/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task2/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/task2/pages/DemoBlazeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task2/tests/DemoBlazeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/task2/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task2/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/task2/pages/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task2/pages/SignUpPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,21 +66,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "VladimirSHEST"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VladimirSHEST&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/VladimirSHEST/test_tasks.git",
-    "accountId": "76939b37-2249-4600-b774-8efa69ca9ed3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VladimirSHEST/test_tasks.git&quot;,
+    &quot;accountId&quot;: &quot;76939b37-2249-4600-b774-8efa69ca9ed3&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2mAZOgV75jv96s3qUbsh930u0bO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -93,25 +89,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.DemoBlazeTest.executor": "Run",
-    "Gradle.UserUpdateTest.executor": "Run",
-    "Gradle.UserUpdateTest.testUpdateUserAndCompareDates.executor": "Run",
-    "Gradle.UsersList.executor": "Run",
-    "Gradle.test_tasks [allureServe].executor": "Run",
-    "Gradle.test_tasks [test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Vladimir/IdeaProjects/test_tasks/src/test/resources",
-    "onboarding.tips.debug.path": "C:/Users/Vladimir/IdeaProjects/test_tasks/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.DemoBlazeTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DemoBlazeTest.add.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DemoBlazeTest.comparisonPrice.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DemoBlazeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DemoBlazeTest.logIn.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DemoBlazeTest.totalPrise.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DemoBlazeTest.vvvvv.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserUpdateTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserUpdateTest.testUpdateUserAndCompareDates.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UsersList.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.test_tasks [allureServe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.test_tasks [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vladimir/IdeaProjects/test_tasks/src/test/resources&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Vladimir/IdeaProjects/test_tasks/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vladimir\IdeaProjects\test_tasks\src\test\resources" />
@@ -121,8 +125,8 @@
       <recent name="task2.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DemoBlazeTest">
-    <configuration name="DemoBlazeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DemoBlazeTest (1)">
+    <configuration name="DemoBlazeTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -135,7 +139,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;task2.pages.DemoBlazeTest&quot;" />
+            <option value="&quot;task2.tests.DemoBlazeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -146,7 +150,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserUpdateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DemoBlazeTest.comparisonPrice" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -159,7 +163,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;task1.case4.UserUpdateTest&quot;" />
+            <option value="&quot;task2.tests.DemoBlazeTest.comparisonPrice&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -170,7 +174,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserUpdateTest.testUpdateUserAndCompareDates" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DemoBlazeTest.logIn" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -183,7 +187,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;task1.case4.UserUpdateTest.testUpdateUserAndCompareDates&quot;" />
+            <option value="&quot;task2.tests.DemoBlazeTest.logIn&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -194,57 +198,61 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="test_tasks [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DemoBlazeTest.totalPrise" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="allureServe" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;task2.tests.DemoBlazeTest.totalPrise&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="test_tasks [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DemoBlazeTest.vvvvv" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;task2.tests.DemoBlazeTest.vvvvv&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DemoBlazeTest" />
-        <item itemvalue="Gradle.test_tasks [allureServe]" />
-        <item itemvalue="Gradle.test_tasks [test]" />
-        <item itemvalue="Gradle.UserUpdateTest.testUpdateUserAndCompareDates" />
-        <item itemvalue="Gradle.UserUpdateTest" />
+        <item itemvalue="Gradle.DemoBlazeTest (1)" />
+        <item itemvalue="Gradle.DemoBlazeTest.comparisonPrice" />
+        <item itemvalue="Gradle.DemoBlazeTest.logIn" />
+        <item itemvalue="Gradle.DemoBlazeTest.vvvvv" />
+        <item itemvalue="Gradle.DemoBlazeTest.totalPrise" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +265,20 @@
       <option name="presentableId" value="Default" />
       <updated>1726521312424</updated>
     </task>
+    <task id="LOCAL-00001" summary="закончил на втором задании, 3-ий пункт">
+      <option name="closed" value="true" />
+      <created>1726605632137</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726605632137</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="закончил на втором задании, 3-ий пункт" />
+    <option name="LAST_COMMIT_MESSAGE" value="закончил на втором задании, 3-ий пункт" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

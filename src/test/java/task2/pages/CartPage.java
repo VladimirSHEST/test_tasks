@@ -2,6 +2,7 @@ package task2.pages;
 
 import com.codeborne.selenide.SelenideElement;
 import static com.codeborne.selenide.Selenide.$x;
+import static com.codeborne.selenide.Selenide.open;
 
 public class CartPage {
 
@@ -13,6 +14,9 @@ public class CartPage {
     private final SelenideElement sonyVaioI7 = $x("//*[@id='tbodyid']/div[2]/div/div/h4/a");
     private final SelenideElement ButtonMonitors = $x("/html/body/div[5]/div/div[1]/div/a[4]");
     private final SelenideElement asusFullHd = $x("//*[@id='tbodyid']/div[2]/div/div/h4/a");
+
+
+
 
     public void addToCart() {
         ButtonPhones.click();
@@ -28,4 +32,6 @@ public class CartPage {
         addProduct.click();
         buttonProductStore.click();
     }
+
+
 }
